@@ -1,20 +1,29 @@
 import java.util.Scanner;
-public class Ejercicio3 {
-	 public static void main(String[]args) {
-		 Scanner scan = new Scanner(System.in);      //Creamos un scanner que tomara los valores de entrada por consola
-		 int nota = scan.nextInt();        //Escanea el proximo entero que es ingresado
-		 scan.close();                            //Ceeramos el scanner si no lo usamos mas(buena practica)
-		 if (nota > 92) {
-			 System.out.println("Ecelente");
-		 }else if (nota > 84) {
-			 System.out.println("Sobresaliente");
-		 }else if (nota >74) {
-			 System.out.println("Distinguido");
-		 }else if (nota >59) {
-			 System.out.println("Bueno");
-		 } else {
-			 System.out.println("Desaprobado");
-		 }
-	 }
 
+public class Ejercicio3 {
+    public static void main(String[] args){
+        int a = ingresarNumero();
+        semitriangulo(a);
+    }
+
+    public static int ingresarNumero(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Ingrese un numero: ");
+        int x = scan.nextInt();
+        scan.close();
+        return x;
+    }
+
+    public static void semitriangulo(int x){
+        for (int n=1; n<=x; n++){
+            linea(n);
+            System.out.println("");
+        }
+    }
+
+    public static void linea(int x){
+        for (int n=1; n<=x; n++){
+            System.out.print(n + " ");
+        }
+    }
 }

@@ -1,18 +1,22 @@
 import java.util.Scanner;
-public class Ejercicio6 {
-	 public static void main(String[]args) {
-		 Scanner scan = new Scanner(System.in);      //Creamos un scanner que tomara los valores de entrada por consola
-         int continuar = 1;
-         int nro ;
-         while (continuar == 1) {
-        	 System.out.println("Por favor ingrese un numero: ");
-        	 nro = scan.nextInt();     //Escanea el primer numero ingresado
-        	 System.out.println("El numero ingresa es: " + nro);
-        	 
-        	 System.out.println("Si desea continuar ingrese el numero 1, si no cualquiero otra tecla");
-        	 continuar = scan.nextInt();     //Escanea el numero y evalua si se continua o no
-        	 
-         }
-         scan.close();     //Se cierra el escaner si no se usa mas
-	 }
+
+public class Ejercicio6{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Por favor ingrese un numero");
+        int x = scan.nextInt();
+        System.out.println("Por favor ingrese otro numero");
+        int n = scan.nextInt();
+        scan.close();
+        System.out.println(potencia(x,n));
+    }
+
+    public static int potencia(int x, int n){
+        int acum = 1;
+        for (int i=1; i <= n;i++){
+            acum *= x;
+        }
+
+        return acum;
+    }
 }
