@@ -1,0 +1,9 @@
+Carlos,Sanchez,30-06-1980,55670,50
+Walter,Simons,25-09-1983,48570,19
+Jack,Flanders,05-12-1988,45559,49
+Andrea,Figueredo,14-11-1990,40699,70
+Anubis,Alcaras,11-09-1987,55431,00
+Ragnar,Lobrock,01-02-1993,46872,89
+Belen,Alcoras,09-08-1991,44439,55
+Bill,Amerian,31-03-1979,66000,00
+Albert,Andrade,03-10-1981,59723,89
