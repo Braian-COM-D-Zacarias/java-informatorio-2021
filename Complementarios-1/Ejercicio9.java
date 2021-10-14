@@ -17,11 +17,8 @@ public class Ejercicio9 {
             if (letras[i] == caracter){
                 cantidad++;
             }
-
         }
-
         System.out.println("Caracteres encontrados: "+ cantidad);
         scan.close();
-
     }
 }
