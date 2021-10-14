@@ -33,6 +33,7 @@ public class Ejercicio6 {
 
         System.out.println("Dni=Sueldo: "+map);
     }
+    
     public static class Empleado {
         public String nombre;
         public String apellido;
