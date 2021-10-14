@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class Ejercicio4 {
+    
     public static void main(String[] args){
         int x = ingresarNumero();
         System.out.println(factorial(x));
     }
-
     public static int ingresarNumero(){
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese un numero para factorial: ");
