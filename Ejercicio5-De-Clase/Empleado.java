@@ -7,8 +7,6 @@ public class Empleado {
     private LocalDate fecha_nacimiento;
     private double sueldo ;
 
-
-
     public String getApellido() {
         return apellido;
     }
