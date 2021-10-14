@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Ejercicio4 {
     public static void main(String[] args) throws Exception {
         ArrayList<String> alumnos = new ArrayList <String>();
