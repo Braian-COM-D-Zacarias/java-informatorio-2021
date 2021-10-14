@@ -1,4 +1,5 @@
 public class Ejercicio1 {
+    
     public static void main(String[] args) throws Exception {
         String [] ciudades = {"Bariloche", "Villa Carlos Paz", "Mendoza"};
 
