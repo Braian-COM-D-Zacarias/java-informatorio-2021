@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Ejercicio4Switch {
 	 public static void main(String[]args) {
 		 Scanner scan = new Scanner(System.in);      //Creamos un scanner que tomara los valores de entrada por consola
