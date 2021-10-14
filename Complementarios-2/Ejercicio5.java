@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Ejercicio5 {
     public static void main(String[] args){
          List<Integer> horas = new ArrayList<Integer>();
@@ -27,7 +26,6 @@ public class Ejercicio5 {
         }
 
         System.out.println(semanal);
-
         System.out.println(cobrar);
 
     }
