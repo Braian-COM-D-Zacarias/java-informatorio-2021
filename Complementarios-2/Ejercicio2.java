@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class Ejercicio2 {
+    
     public static void main(String[] args) throws Exception {
         int [] enteros = {1,3,5,7,9};
         int long_orig = enteros.length;
