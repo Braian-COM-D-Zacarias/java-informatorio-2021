@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Ejercicio7 {
     public static void main(String[] args) throws Exception {
-
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese primer valor");
         int n1 = scan.nextInt();
@@ -37,7 +36,6 @@ public class Ejercicio7 {
         }
         scan.close();
     }
-
 
     public static boolean multiplo2(int numero){
         return (numero % 2 == 0);
