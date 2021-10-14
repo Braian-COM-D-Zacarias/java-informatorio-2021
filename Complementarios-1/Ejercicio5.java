@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Ejercicio5{
+    
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.println("Por favor ingrese un numero");
@@ -16,7 +17,6 @@ public class Ejercicio5{
         for (int i=1; i <= n;i++){
             acum += x;
         }
-
         return acum;
     }
 }
