@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Ejercicio8 {
     public static void main(String[] args) {
-
         String nombre;
         String apellido;
         String edad;
@@ -27,15 +26,12 @@ public class Ejercicio8 {
 
         scan.close();
     }
-
     public class Persona {
         private String nombre;
         private String apellido;
         private String edad;
         private String direccion;
         private String ciudad;
-
-
 
         public String getNombre(){
             return this.nombre;
@@ -57,5 +53,4 @@ public class Ejercicio8 {
             return this.ciudad;
         }
     }
-
 }
