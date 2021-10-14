@@ -1,9 +1,8 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-
-
 public class Ejercicio7 {
+    
     public static void main(String[] args){
 
         Scanner scan = new Scanner(System.in);
@@ -45,7 +44,6 @@ public class Ejercicio7 {
         for (int i=0; i<cadena.length(); i++){
             //System.out.println(String.valueOf(cadena.charAt(i)));
             resultado += map.get(String.valueOf(cadena.charAt(i)));
-
         }
         return resultado;
     }
